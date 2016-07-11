@@ -5,6 +5,7 @@ import NavBar from './components/nav-bar';
 import About from './components/about';
 import Projects from './components/projects';
 import Education from './components/education';
+import Employment from './components/employment';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <About />
         <Projects />
         <Education />
+        <Employment />
       </div>
     </div>
   );

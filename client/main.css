@@ -72,7 +72,7 @@ img {
   color: #3b3a36;
 }
 
-.project-desc:last-of-type {
+.project-desc:last-of-type, .job-desc:last-of-type   {
   margin-bottom: 15px;
 }
 
@@ -99,7 +99,7 @@ a.bookmark {
   border-radius: 90%;
 }
 
-.education-course, .education-year {
+.education-course, .education-year, .company, .employment-year {
   display: inline-block;
   margin: 3px 0 0;
   color: #62615E;
@@ -109,8 +109,14 @@ a.bookmark {
   margin-bottom: 10px;
 }
 
-.education-year {
+.education-year, .employment-year {
   padding-left: 20px;
+}
+
+.job-desc {
+  margin: 3px 0 8px;
+  line-height: 1.1;
+  color: #3b3a36;
 }
 
 .clearfix:after {
