@@ -3,6 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div className="section">
+      <a name="about" className="bookmark"></a>
       <div className="clearfix">
         <div className="title"><hr /><h2>About Me</h2><hr /></div>
         <img className="headshot" src="headshot.jpg" />

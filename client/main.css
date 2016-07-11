@@ -22,8 +22,9 @@ body{
   margin: 0 auto;
 }
 
-a {
+a, h3 a {
   text-decoration: none;
+  color: #3b3a36;
 }
 
 hr {
@@ -82,6 +83,13 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+a.bookmark {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
 }
 
 .headshot {
