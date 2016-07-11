@@ -35,7 +35,7 @@ h2 {
   display: inline-block;
 }
 
-h3 {
+h3, h4, h5 {
   padding: 0;
   margin: auto;
   font-family: arial, helvetica;
@@ -89,6 +89,20 @@ img {
   margin: auto 30px auto 0;
   max-width: 25%;
   border-radius: 90%;
+}
+
+.education-course, .education-year {
+  display: inline-block;
+  margin: 3px 0 0;
+  color: #62615E;
+}
+
+.education-course:last-of-type {
+  margin-bottom: 10px;
+}
+
+.education-year {
+  padding-left: 20px;
 }
 
 .clearfix:after {
