@@ -119,6 +119,22 @@ a.bookmark {
   color: #3b3a36;
 }
 
+.contact-div {
+  width: 50%;
+  float: left;
+}
+
+.contact-detail {
+  position: relative;
+  display: inline-block;
+  top: -5px;
+  padding-left: 8px;
+}
+
+.space {
+  padding-bottom: 75px;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
