@@ -3,10 +3,9 @@ import React from 'react';
 const Contact = () => {
   return (
     <div className="section">
-      <div className="clearfix space">
       <a name="contact" className="bookmark"></a>
       <div className="title"><hr /><h2>Contact</h2><hr /></div>
-
+    <div className="clearfix space">
       <div className="contact-div">
         <a href="mailto:justin.arruda@gmail.com">
           <img src="email-14-24.gif" />
